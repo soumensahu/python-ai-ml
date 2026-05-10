@@ -23,7 +23,7 @@ print(f"chunks: {chunks[1]}")
 # vector embedding and store in local vector DB
 
 # chunk vector embeddings
-api_key = "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"
+api_key = "key"
 if not api_key:
     raise ValueError("OPENAI_API_KEY environment variable is required")
 

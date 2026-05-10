@@ -6,7 +6,7 @@ from typing import Optional
 
 client = OpenAI(
   base_url="https://openrouter.ai/api/v1",
-  api_key="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",
+  api_key="key",
 )
 
 def get_weather(city:str):

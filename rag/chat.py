@@ -2,7 +2,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_qdrant import QdrantVectorStore
 from openai import OpenAI
 
-api_key = "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"
+api_key = "key"
 
 #embedding model
 

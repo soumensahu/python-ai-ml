@@ -5,7 +5,7 @@ from openai import AsyncOpenAI
 from openai.helpers import LocalAudioPlayer
 import os
 
-os.environ["OPENROUTER_API_KEY"] = "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"
+os.environ["OPENROUTER_API_KEY"] = ""
 
 client = OpenAI(
     api_key=os.environ["OPENROUTER_API_KEY"],

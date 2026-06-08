@@ -5,8 +5,8 @@ from langchain_openai import ChatOpenAI
 from openai import OpenAI
 from typing import Optional
 import os
-os.environ["OPENROUTER_API_KEY"] = "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"
-os.environ["GEMINI_API_KEY"] = "AIzaSyALx5QyizV-1pRpigPnv9k07G7i3gN2i_k"
+os.environ["OPENROUTER_API_KEY"] = ""
+os.environ["GEMINI_API_KEY"] = ""
 
 client=ChatOpenAI(
     model="openrouter/owl-alpha",
